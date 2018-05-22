@@ -1,0 +1,58 @@
+@import 'reset.css';
+
+.box {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box1 {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+
+.innerbox {
+    background-color: paleturquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid yellow;
+    margin: 10px;
+}
+
+
+.innerbox1 {
+    background-color: paleturquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid yellow;
+    margin: 10px;
+}
+
+.title {
+    color: brown;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.maps {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 5px solid yellow; */
+}
