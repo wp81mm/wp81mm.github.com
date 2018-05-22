@@ -1,2 +1,2 @@
-# wp81mm.gitub.com
+# wp81mm.github.com
 gitHub test page
