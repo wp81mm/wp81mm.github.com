@@ -70,17 +70,18 @@
     border: 1px solid gray;
 }
 
-.cell1 { 
+.title_cell { 
     grid-column-start: 1; 
     grid-column-end: 4; 
-    grid-row-start: 1; 
-    grid-row-end: 3;
     border: 1px solid gray;
+    display: flex;
+    align-items: center;
+
+
 }
 
 .cell2 { 
-    grid-column-start: 1; 
-    grid-row-start: 3; 
-    grid-row-end: 10;
+    background-color: brown;
     border: 1px solid gray;
+    border-radius: 30%;
 }
