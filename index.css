@@ -1,88 +1,25 @@
 @import 'reset.css';
 
-.box {
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    margin: 10px;
-}
-
-.box1 {
-    background-color: red;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    margin: 10px;
-}
-
-.innerbox {
-    background-color: paleturquoise;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 5px solid yellow;
-    margin: 10px;
-}
-
-
-.innerbox1 {
-    background-color: paleturquoise;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 5px solid yellow;
-    margin: 10px;
-}
-
-.title {
-    color: brown;
-    font-size: 2em;
-    font-weight: bold;
-}
-
-.maps {
-    /* background-color: red; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    /* border: 5px solid yellow; */
-}
-
 .container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(100px, auto);
-    grid-column-gap: 1em;
-    grid-row-gap: 1em;
-    margin: 10px;
-
+    border: 1px solid red;
+    margin-bottom: 5px;
 }
 
-.cell {
-    border: 1px solid gray;
-}
-
-.title_cell { 
-    grid-column-start: 1; 
-    grid-column-end: 4; 
-    border: 1px solid gray;
+.conB .container {
     display: flex;
-    align-items: center;
-
-
+    max-width: 1000px;
+    /* padding: 10px; */
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.cell2 { 
-    background-color: brown;
-    border: 1px solid gray;
-    border-radius: 30%;
+.item {
+    flex: 1;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    border: 1px solid gold;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
 }
