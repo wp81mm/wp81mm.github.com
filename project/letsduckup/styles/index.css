@@ -1,0 +1,36 @@
+@import 'reset.css';
+body {
+    text-align: center;
+    background-position: center;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100px;
+    max-width: 1080px;
+    justify-content: center;
+    /* 컨텐츠를 가운데 정렬하는 핵심기술 ㅋ */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title .container {
+    background-color: aqua;
+}
+
+.introduction .container {
+    background-color: bisque;
+}
+
+.broadcaster .container {
+    background-color: darkgoldenrod;
+}
+
+.links .container {
+    background-color: cornflowerblue;
+}
+
+.ads .container {
+    background-color: chartreuse;
+}
